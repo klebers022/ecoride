@@ -1,5 +1,6 @@
-import ImpactoAmbiental from "@/components/impacto";
 
+
+import ImpactoAmbiental from "@/components/impacto";
 
 export default function Home() {
   return (
@@ -8,24 +9,24 @@ export default function Home() {
         className="relative bg-cover bg-center h-screen flex items-center"
         style={{ backgroundImage: 'url("/background.jpg")' }}
       >
-        {/* Sobreposição semi-transparente */}
-        <div className="bg-black bg-opacity-50 absolute inset-0"></div>
+        {/* Sobreposição com Gradiente */}
+        <div className="bg-gradient-to-t from-black via-transparent to-transparent absolute inset-0 opacity-60"></div>
 
         {/* Conteúdo da Seção */}
         <div className="relative z-10 max-w-lg mx-8 md:ml-16 text-left text-white">
-          <h1 className="text-5xl md:text-6xl font-bold">
+          <h1 className="text-5xl md:text-6xl font-extrabold">
             Eco<span className="text-[#A4D65E]">Ride</span>
           </h1>
           <p className="mt-4 text-2xl md:text-3xl font-semibold">
             Movimente-se pelo Futuro Sustentável
           </p>
-          <button className="mt-8 bg-[#A4D65E] hover:bg-[#8ab44f] text-black font-semibold py-3 px-6 rounded-md transition duration-300 ease-in-out">
+          <button className="mt-8 bg-[#A4D65E] hover:bg-[#8ab44f] text-black font-semibold py-3 px-6 rounded-md transition duration-300 ease-in-out transform hover:scale-105">
             Comece agora
           </button>
         </div>
       </section>
 
-      <section className="py-16 bg-white text-center ">
+      <section className="py-16 bg-white text-center">
         <h2 className="text-3xl font-bold text-[#1A3C40] mb-4">
           Como Funciona
         </h2>
@@ -36,13 +37,13 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
           {/* Passo 1 */}
-          <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-80 text-center">
+          <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-80 text-center transform transition duration-300 hover:scale-105">
             <img
               src="/lugar-colocar.png"
               alt="Ícone Localizar"
               className="mx-auto mb-4 h-12"
             />
-            <h3 className="text-xl font-semibold text-teal-600">
+            <h3 className="text-xl font-semibold text-[#34B5DF]">
               Localize um EcoRide
             </h3>
             <p className="text-gray-600 mt-2">
@@ -52,13 +53,13 @@ export default function Home() {
           </div>
 
           {/* Passo 2 */}
-          <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-80 text-center">
+          <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-80 text-center transform transition duration-300 hover:scale-105">
             <img
               src="/carro.png"
               alt="Ícone Reservar"
               className="mx-auto mb-4 h-12"
             />
-            <h3 className="text-xl font-semibold text-teal-600">
+            <h3 className="text-xl font-semibold text-[#34B5DF]">
               Reserve e Desbloqueie
             </h3>
             <p className="text-gray-600 mt-2">
@@ -68,13 +69,13 @@ export default function Home() {
           </div>
 
           {/* Passo 3 */}
-          <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-80 text-center">
+          <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-80 text-center transform transition duration-300 hover:scale-105">
             <img
               src="/seguro-de-automovel.png"
               alt="Ícone Devolver"
               className="mx-auto mb-4 h-12"
             />
-            <h3 className="text-xl font-semibold text-teal-600">
+            <h3 className="text-xl font-semibold text-[#34B5DF]">
               Devolva o Carro
             </h3>
             <p className="text-gray-600 mt-2">
@@ -87,7 +88,7 @@ export default function Home() {
 
       <ImpactoAmbiental />
 
-      <section className="bg-[#f6fffc] py-16 px-4 min-h-screen">
+      <section id="planos" className="bg-[#f6fffc] py-16 px-4 min-h-screen">
         <div className="max-w-5xl mx-auto text-center mb-12">
           <h2 className="text-5xl font-bold text-[#003060]">Planos</h2>
           <p className="text-lg text-gray-600 mt-4">
@@ -98,7 +99,7 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row justify-center gap-8 items-center">
           {/* Plano Básico */}
-          <div className="relative bg-white shadow-lg rounded-lg pt-2 pb-6 px-6 max-w-xs text-center border-t-[6px] border-[#a6eb83] flex flex-col justify-between h-[380px] mx-auto">
+          <div className="relative bg-white shadow-lg rounded-lg pt-2 pb-6 px-6 max-w-xs text-center border-t-[6px] border-[#a6eb83] flex flex-col justify-between h-[380px] mx-auto transform transition duration-300 hover:scale-105">
             <div>
               <h3 className="text-2xl font-semibold text-gray-700 mt-4">
                 Básico
@@ -118,7 +119,7 @@ export default function Home() {
           </div>
 
           {/* Plano Padrão */}
-          <div className="relative bg-white shadow-lg rounded-lg pt-2 pb-6 px-6 max-w-xs text-center border-t-[6px] border-[#7cd4ea] flex flex-col justify-between h-[380px] mx-auto">
+          <div className="relative bg-white shadow-lg rounded-lg pt-2 pb-6 px-6 max-w-xs text-center border-t-[6px] border-[#7cd4ea] flex flex-col justify-between h-[380px] mx-auto transform transition duration-300 hover:scale-105">
             <div>
               <h3 className="text-2xl font-semibold text-gray-700 mt-4">
                 Padrão
@@ -139,7 +140,7 @@ export default function Home() {
           </div>
 
           {/* Plano Premium */}
-          <div className="relative bg-white shadow-lg rounded-lg pt-2 pb-6 px-6 max-w-xs text-center border-t-[6px] border-[#003060] flex flex-col justify-between h-[380px] mx-auto">
+          <div className="relative bg-white shadow-lg rounded-lg pt-2 pb-6 px-6 max-w-xs text-center border-t-[6px] border-[#003060] flex flex-col justify-between h-[380px] mx-auto transform transition duration-300 hover:scale-105">
             <div>
               <h3 className="text-2xl font-semibold text-gray-700 mt-4">
                 Premium
@@ -172,7 +173,7 @@ export default function Home() {
             sustentabilidade e a experiência incrível dos nossos clientes.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Avaliação 1 */}
+            {/* Avaliações */}
             <div className="bg-white text-[#1A3C40] p-6 rounded-lg shadow-md">
               <div className="flex items-center justify-center mb-4">
                 <img
@@ -204,7 +205,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Avaliação 2 */}
             <div className="bg-white text-[#1A3C40] p-6 rounded-lg shadow-md">
               <div className="flex items-center justify-center mb-4">
                 <img
@@ -215,7 +215,6 @@ export default function Home() {
                 <div>
                   <h3 className="text-lg font-semibold">Maria Oliveira</h3>
                   <div className="flex justify-center text-yellow-400">
-                    {/* Estrelas */}
                     {[...Array(5)].map((_, index) => (
                       <svg
                         key={index}
@@ -236,7 +235,6 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Avaliação 3 */}
             <div className="bg-white text-[#1A3C40] p-6 rounded-lg shadow-md">
               <div className="flex items-center justify-center mb-4">
                 <img
@@ -247,7 +245,6 @@ export default function Home() {
                 <div>
                   <h3 className="text-lg font-semibold">Carlos Pereira</h3>
                   <div className="flex justify-center text-yellow-400">
-                    {/* Estrelas */}
                     {[...Array(5)].map((_, index) => (
                       <svg
                         key={index}
@@ -314,8 +311,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-    
     </div>
   );
 }

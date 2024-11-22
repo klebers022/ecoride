@@ -33,17 +33,7 @@ export default function Footer() {
               <h3 className="text-xl font-semibold text-[#A4D65E] mb-4">Contato</h3>
               <p>Email: <a href="mailto:suporte@ecoride.com" className="text-gray-300 hover:text-[#34B5DF]">suporte@ecoride.com</a></p>
               <p>Telefone: <span className="text-gray-300">(11) 1234-5678</span></p>
-              <div className="social-icons mt-4">
-                <a href="#" className="inline-block mx-2">
-                  <img src="/icons/facebook-icon.png" alt="Facebook" className="w-6 h-6" />
-                </a>
-                <a href="#" className="inline-block mx-2">
-                  <img src="/icons/instagram-icon.png" alt="Instagram" className="w-6 h-6" />
-                </a>
-                <a href="#" className="inline-block mx-2">
-                  <img src="/icons/twitter-icon.png" alt="Twitter" className="w-6 h-6" />
-                </a>
-              </div>
+           
             </div>
           </div>
           <p className="footer-bottom-text text-center mt-8 text-gray-400">

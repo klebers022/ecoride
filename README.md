@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nome do Projeto
 
-## Getting Started
+ Nossa empresa oferece locação de veículos 100% elétricos, com foco em sustentabilidade e conveniência. Contamos com uma frota própria e três planos flexíveis que atendem diferentes necessidades de mobilidade: Básico, Intermediário e Premium.
+O processo é totalmente online, através de um site responsivo que permite cadastro, escolha do plano, pagamento e retirada do veículo de forma simples e intuitiva. Nosso diferencial está no compromisso ambiental, na transparência e na excelência no atendimento.
+ Nosso objetivo é promover a mobilidade sustentável e tornar-se referência no setor, incentivando práticas ecológicas no transporte urbano.
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Instalação](#instalação)
+- [Configuração](#configuração)
+- [Uso](#uso)
+- [Informações do Projeto](#informações-do-projeto)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalação
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Passos para instalar o projeto:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/klebers022/ecoride
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd globalfront
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Uso
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Como utilizar o projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Inicie o servidor:
+    ```bash
+    npm start
+    ```
+2. Acesse o sistema no navegador:
+    ```
+    http://localhost:3000
+    ```
 
-## Deploy on Vercel
+## Informações do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Versão:** 1.0.0
+- **Autor:** Kleber Silva, Gabriel Alves e Pedro Dovigo
+- **Email:** klebersduarte@gmail.com
+- **Repositório:** [https://github.com/klebers022/ecoride] 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

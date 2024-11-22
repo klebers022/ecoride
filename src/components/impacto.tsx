@@ -59,7 +59,7 @@ export default function ImpactoAmbiental() {
   }, []);
 
   return (
-    <section className="bg-[#1A3C40] text-white py-10 min-h-screen">
+    <section id="impacto" className="bg-[#1A3C40] text-white py-10 min-h-screen">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold text-[#A4D65E] mb-4">
           impacto ambiental
